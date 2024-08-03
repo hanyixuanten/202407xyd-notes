@@ -1,3 +1,4 @@
+// LUOGU_RID: 170388733
 #include <bits/stdc++.h>
 #define int long long
 using namespace std;
@@ -23,7 +24,7 @@ signed main()
         q.push_back(ns * ans);
         ++ns;
     }
-    printf("%lld\n", q.size());
+    printf("%d\n", q.size());
     for (int i : q)
         printf("%lld ", i);
     puts("");
