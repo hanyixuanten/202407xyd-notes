@@ -7,7 +7,7 @@ bool edgrev[1005][1005]; // 补图
 bool S[1005], T[1005];
 int ans = 0;
 bool used[1005];
-void dfs(int last = -1) // 30pts+eps
+void dfs(int last = -1) // 50pts
 {
     bool fla1 = 1;
     for (int i = 1; i <= n; ++i)

@@ -10,7 +10,7 @@ struct node
         return t < x.t;
     }
 } tim[100005];
-namespace n5 // 40pts+eps
+namespace n5 // 50pts
 {
     bool chosen[15];
     int ans = 0;

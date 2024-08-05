@@ -35,7 +35,7 @@ int dept(int l, int r)
     return (ans && dep == 0) ? maxdep : -1;
 }
 int ans = INT_MAX;
-void dfs(int dep, int nowid) // 30pts - bigeps
+void dfs(int dep, int nowid) // 30pts
 {
     if (nowid > n)
         return;
