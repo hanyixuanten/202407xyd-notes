@@ -53,9 +53,6 @@ signed main()
     for (int i = 1; i <= n; ++i)
         scanf("%lld", &tim[i].p);
     sort(tim + 1, tim + n + 1);
-    if (n <= 505)
-    {
-        n5::main();
-    }
+    n5::main();
     return 0;
 }
